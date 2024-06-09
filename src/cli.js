@@ -9,5 +9,4 @@ const helloUser = () => {
   return name;
 };
 
-
 export default helloUser;
