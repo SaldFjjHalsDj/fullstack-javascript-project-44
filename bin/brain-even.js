@@ -32,6 +32,4 @@ const brainEven = () => {
   }
 };
 
-brainEven();
-
 export default brainEven;
