@@ -8,3 +8,5 @@ https://asciinema.org/a/5jkfIFRogFuDzPaHQUzQhQxXQ
 https://asciinema.org/a/0JYgsAcVCJzGiUssKrK4u4WiY
 ### Asciinema for Brain-Gcd game:
 https://asciinema.org/a/NljrdIVIjKPRnCGrgxOc1c5bz
+### Asciinema for Brain-Progression game:
+https://asciinema.org/a/LkJ3AvdlHS10lxv3ml2lXLp43
