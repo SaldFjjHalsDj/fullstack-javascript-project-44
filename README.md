@@ -6,3 +6,5 @@
 https://asciinema.org/a/5jkfIFRogFuDzPaHQUzQhQxXQ
 ### Asciinema for Brain-Calc game:
 https://asciinema.org/a/0JYgsAcVCJzGiUssKrK4u4WiY
+### Asciinema for Brain-Gcd game:
+https://asciinema.org/a/NljrdIVIjKPRnCGrgxOc1c5bz
