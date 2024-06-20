@@ -1,12 +1,12 @@
 import isPrime from '../modules/isPrime.js';
 
 const primeGameImplementation = () => {
-  const gameInfo = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+  const primeGameInfo = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-  const expectedAnswer = isPrime();
+  const primeGameAnswer = isPrime();
   const result = [];
 
-  result.push(gameInfo, expectedAnswer);
+  result.push(primeGameInfo, primeGameAnswer);
 
   return result;
 };

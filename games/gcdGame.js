@@ -1,12 +1,12 @@
 import findGcd from '../modules/findGcd.js';
 
 const gcdGameImplementation = () => {
-  const gameInfo = 'Find the greatest common divisor of given numbers.';
+  const gcdGameInfo = 'Find the greatest common divisor of given numbers.';
 
-  const expectedAnswer = findGcd();
+  const gcdGameAnswer = findGcd();
   const result = [];
 
-  result.push(gameInfo, expectedAnswer);
+  result.push(gcdGameInfo, gcdGameAnswer);
 
   return result;
 };

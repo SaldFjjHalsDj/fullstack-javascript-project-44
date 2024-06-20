@@ -1,12 +1,12 @@
 import makeProgression from '../modules/makeProgression.js';
 
 const progressionGameImplementation = () => {
-  const gameInfo = 'What number is missing in the progression?';
+  const progressionGameInfo = 'What number is missing in the progression?';
 
-  const expectedAnswer = makeProgression();
+  const progressionGameAnswer = makeProgression();
   const result = [];
 
-  result.push(gameInfo, expectedAnswer);
+  result.push(progressionGameInfo, progressionGameAnswer);
 
   return result;
 };
