@@ -1,13 +1,13 @@
 import readlineSync from 'readline-sync';
 import helloUser from './modules/userGreetings.js';
 
-const gameImplementation = (game) => {
+const gameImplementation = (picker, game) => {
   const name = helloUser();
 
   let count = 0;
 
   while (count <= 2) {
-    const gameInfo = game();
+    const gameInfo = picker(game);
     const expectedAnswer = gameInfo[1][0];
     const roundQuestion = gameInfo[1][1];
 
