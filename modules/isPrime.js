@@ -1,13 +1,17 @@
 const isPrime = () => {
   const number = Math.floor(Math.random() * 99) + 1;
-  console.log(`Question: ${number}`);
-  if (number <= 3) return 1;
+  const roundQuestion = `Question: ${number}`;
 
-  for (let i = 4; i < number; i += 1) {
-    if (number % i === 0) return 0;
+  if (number <= 2) return ['yes', roundQuestion];
+
+  for (let i = 2; i < number; i += 1) {
+    if (number % i === 0) return ['no', roundQuestion];
   }
 
-  return 1;
+  const result = [];
+  result.push();
+
+  return ['yes', roundQuestion];
 };
 
 export default isPrime;

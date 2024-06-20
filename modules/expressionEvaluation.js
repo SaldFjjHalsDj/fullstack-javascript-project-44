@@ -1,16 +1,18 @@
-const expressionEvaluation = (operator) => {
+const expressionEvaluation = () => {
+  const operators = ['*', '-', '+'];
+  const operator = operators[Math.floor(Math.random() * 3)];
   const firstNumber = Math.floor(Math.random() * 100);
   const secondNumber = Math.floor(Math.random() * 100);
 
-  console.log(`Question: ${firstNumber} ${operator} ${secondNumber}`);
+  const roundQuestion = `Question: ${firstNumber} ${operator} ${secondNumber}`;
 
   switch (operator) {
     case '*':
-      return firstNumber * secondNumber;
+      return [firstNumber * secondNumber, roundQuestion];
     case '-':
-      return firstNumber - secondNumber;
+      return [firstNumber - secondNumber, roundQuestion];
     case '+':
-      return firstNumber + secondNumber;
+      return [firstNumber + secondNumber, roundQuestion];
     default:
       return null;
   }

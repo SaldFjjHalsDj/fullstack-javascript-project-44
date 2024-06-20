@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import helloUser from '../src/cli.js';
+import helloUser from '../modules/userGreetings.js';
 
 helloUser();

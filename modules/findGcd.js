@@ -1,23 +1,23 @@
 const findGcd = () => {
-  let first = Math.floor(Math.random() * 100);
-  let second = Math.floor(Math.random() * 100);
+  let firstNumber = Math.floor(Math.random() * 100);
+  let secondNumber = Math.floor(Math.random() * 100);
 
-  console.log(`Question: ${first} ${second}`);
+  const roundQuestion = `Question: ${firstNumber} ${secondNumber}`;
 
-  const buff = first;
-  first = Math.max(first, second);
-  second = Math.min(buff, second);
+  const buff = firstNumber;
+  firstNumber = Math.max(firstNumber, secondNumber);
+  secondNumber = Math.min(buff, secondNumber);
 
-  let result = second;
+  let result = secondNumber;
 
   while (result > 0) {
-    if (first % result === 0 && second % result === 0) {
+    if (firstNumber % result === 0 && secondNumber % result === 0) {
       break;
     }
     result -= 1;
   }
 
-  return result;
+  return [result, roundQuestion];
 };
 
 export default findGcd;
