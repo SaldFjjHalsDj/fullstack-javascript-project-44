@@ -9,7 +9,7 @@ const makeProgression = () => {
 
   for (let i = 0; i < length; i += 1) {
     if (i === missingPosition) {
-      arr.push('...');
+      arr.push('..');
       result.push(progressionElement);
       progressionElement += progInc;
     } else {
