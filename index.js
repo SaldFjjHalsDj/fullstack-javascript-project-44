@@ -22,6 +22,7 @@ const gameImplementation = (game) => {
       count += 1;
     } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${expectedAnswer}'`);
+      console.log(`Let's try again, ${name}!`);
       count = 0;
       break;
     }
