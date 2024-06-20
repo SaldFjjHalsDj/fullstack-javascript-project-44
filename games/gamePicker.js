@@ -5,7 +5,6 @@ import makeProgression from '../modules/makeProgression.js';
 import findGcd from '../modules/findGcd.js';
 
 const gamePicker = (game) => {
-
   let gameInfo = '';
   let expectedAnswer = [];
   const result = [];

@@ -3,7 +3,11 @@ const isEven = () => {
   const roundQuestion = `Question: ${evenGameAnswer}`;
   const result = [];
 
-  evenGameAnswer % 2 === 0 ? result.push('yes') : result.push('no');
+  if (evenGameAnswer % 2 === 0) {
+    result.push('yes');
+  } else {
+    result.push('no');
+  }
   result.push(roundQuestion);
 
   return result;
