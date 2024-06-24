@@ -5,7 +5,7 @@ const primeGame = () => {
   const expectedAnswer = makeProgression();
   const result = [];
 
-  result.push(expectedAnswer, gameInfo);
+  result.push(gameInfo, expectedAnswer);
 
   return result;
 };
