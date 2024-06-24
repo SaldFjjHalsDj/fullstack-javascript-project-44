@@ -1,11 +1,13 @@
+import generateNumber from './generateNumber.js';
+
 const makeProgression = () => {
-  const length = Math.floor(Math.random() * 5) + 5;
-  const missingPosition = Math.floor(Math.random() * length);
+  const length = generateNumber(5, 10);
+  const missingPosition = generateNumber(0, length);
   const arr = [];
   const result = [];
-  const progInc = Math.floor(Math.random() * 10) + 1;
+  const progInc = generateNumber(1, 10);
 
-  let progressionElement = Math.floor(Math.random() * 20) + 1;
+  let progressionElement = generateNumber(1, 20);
 
   for (let i = 0; i < length; i += 1) {
     if (i === missingPosition) {

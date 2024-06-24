@@ -1,5 +1,7 @@
+import generateNumber from './generateNumber.js';
+
 const isEven = () => {
-  const evenGameAnswer = Math.floor(Math.random() * 100);
+  const evenGameAnswer = generateNumber(0, 100);
   const roundQuestion = `Question: ${evenGameAnswer}`;
   const result = [];
 

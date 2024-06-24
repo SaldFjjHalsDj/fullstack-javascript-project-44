@@ -2,7 +2,7 @@
   "type": "module",
   "name": "@hexlet/code",
   "version": "3.0.0",
-  "description": "First Project",
+  "description": "Brain-Games - это консольный проект, в котром реализованно 5 маленьких игр.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,7 +26,6 @@
     "brain-prime": "bin/brain-prime.js"
   },
   "dependencies": {
-    "eslint-plugin-flowtype": "^8.0.3",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
@@ -36,9 +35,6 @@
     "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-react": "^7.34.2",
-    "eslint-plugin-react-hooks": "^4.6.2",
     "globals": "^15.4.0"
   }
 }

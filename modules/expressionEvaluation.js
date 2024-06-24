@@ -1,8 +1,10 @@
+import generateNumber from './generateNumber.js';
+
 const expressionEvaluation = () => {
   const operators = ['*', '-', '+'];
-  const operator = operators[Math.floor(Math.random() * 3)];
-  const firstNumber = Math.floor(Math.random() * 100);
-  const secondNumber = Math.floor(Math.random() * 100);
+  const operator = operators[generateNumber(0, 3)];
+  const firstNumber = generateNumber(0, 100);
+  const secondNumber = generateNumber(0, 100);
 
   const roundQuestion = `Question: ${firstNumber} ${operator} ${secondNumber}`;
 

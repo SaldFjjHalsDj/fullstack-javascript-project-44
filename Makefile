@@ -3,7 +3,22 @@ install:
 	npm ci
 
 brain-games:
-	node /mnt/d/workspace/fullstack-javascript-project-44/bin/brain-games.js
+	node ./bin/brain-games.js
+
+brain-even:
+	node ./bin/brain-even.js
+
+brain-gcd:
+	node ./bin/brain-gcd.js
+
+brain-progression:
+	node ./bin/brain-progression.js
+
+brain-calc:
+	node ./bin/brain-calc.js
+
+brain-prime:
+	node ./bin/brain-prime.js
 
 publish:
 	npm publish --dry-run

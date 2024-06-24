@@ -19,7 +19,6 @@ export default [
     languageOptions: {
       globals: {
         ...globals.node,
-        ...globals.jest,
       },
       parserOptions: {
         // Eslint doesn't supply ecmaVersion in `parser.js` `context.parserOptions`

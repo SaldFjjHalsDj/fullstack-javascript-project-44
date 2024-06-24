@@ -1,5 +1,7 @@
+import generateNumber from './generateNumber.js';
+
 const isPrime = () => {
-  const number = Math.floor(Math.random() * 99) + 1;
+  const number = generateNumber(1, 99);
   const roundQuestion = `Question: ${number}`;
 
   if (number <= 2) return ['yes', roundQuestion];

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
 import gameImplementation from '../index.js';
-import gamePicker from '../games/gamePicker.js';
+import evenGame from '../games/evenGame.js';
 
-gameImplementation(gamePicker, 'even');
+gameImplementation(evenGame);

@@ -1,6 +1,8 @@
+import generateNumber from './generateNumber.js';
+
 const findGcd = () => {
-  let firstNumber = Math.floor(Math.random() * 100);
-  let secondNumber = Math.floor(Math.random() * 100);
+  let firstNumber = generateNumber(0, 100);
+  let secondNumber = generateNumber(0, 100);
 
   const roundQuestion = `Question: ${firstNumber} ${secondNumber}`;
 
