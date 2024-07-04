@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import helloUser from './modules/userGreetings.js';
+import helloUser from './games/userGreetings.js';
 
 const gameImplementation = (game) => {
   const name = helloUser();
@@ -21,16 +21,11 @@ const gameImplementation = (game) => {
     if (expectedAnswer.toString() === userAnswer.toString()) {
       count += 1;
     } else {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${expectedAnswer}'`);
-      console.log(`Let's try again, ${name}!`);
-      count = 0;
-      break;
+      return `'${userAnswer}' is wrong answer ;(. Correct answer was '${expectedAnswer}'\nLet's try again, ${name}!`;
     }
   }
 
-  if (count > 2) {
-    console.log(`Congratulations, ${name}!`);
-  }
+  return `Congratulations, ${name}!`;
 };
 
 export default gameImplementation;

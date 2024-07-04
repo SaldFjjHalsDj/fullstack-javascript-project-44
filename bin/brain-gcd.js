@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import gameImplementation from '../index.js';
-import gcdGame from '../games/gcdGame.js';
+import gameImplementation from '../src/index.js';
+import gcdGame from '../src/games/gcdGame.js';
 
-gameImplementation(gcdGame);
+console.log(gameImplementation(gcdGame));
