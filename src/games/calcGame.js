@@ -13,11 +13,14 @@ const calcGame = () => {
 
   switch (operator) {
     case '*':
-      return result.push([firstNumber * secondNumber, roundQuestion]);
+      result.push([firstNumber * secondNumber, roundQuestion]);
+      return result;
     case '-':
-      return result.push([firstNumber - secondNumber, roundQuestion]);
+      result.push([firstNumber - secondNumber, roundQuestion]);
+      return result;
     case '+':
-      return result.push([firstNumber + secondNumber, roundQuestion]);
+      result.push([firstNumber + secondNumber, roundQuestion]);
+      return result;
     default:
       throw Error('Error: Invalid operator!');
   }
